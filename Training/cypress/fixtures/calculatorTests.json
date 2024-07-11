@@ -1,0 +1,58 @@
+[
+  {
+    "testScenario": "Add two Integers",
+    "firstNumber": "5",
+    "secondNumber": "15",
+    "action": "plus",
+    "result": "20"
+  },
+  {
+    "testScenario": "Add two Float Numbers",
+    "firstNumber": "5.3",
+    "secondNumber": "15.5",
+    "action": "plus",
+    "result": "20.8"
+  },
+  {
+    "testScenario": "Add two Negative Numbers",
+    "firstNumber": "-5",
+    "secondNumber": "-1",
+    "action": "plus",
+    "result": "-6"
+  },
+  {
+    "testScenario": "Add a charcter",
+    "firstNumber": "5",
+    "secondNumber": "A",
+    "action": "plus",
+    "result": "ERR"
+  },
+  {
+    "testScenario": "Minus two Integers",
+    "firstNumber": "25",
+    "secondNumber": "15",
+    "action": "minus",
+    "result": "10"
+  },
+  {
+    "testScenario": "Minus two Float Numbers",
+    "firstNumber": "15.3",
+    "secondNumber": "5.1",
+    "action": "minus",
+    "result": "10.2"
+  },
+  {
+    "testScenario": "Minus two Negative Numbers",
+    "firstNumber": "-5",
+    "secondNumber": "-1",
+    "action": "minus",
+    "result": "-4"
+  },
+  {
+    "testScenario": "Minus a charcter",
+    "firstNumber": "5",
+    "secondNumber": "A",
+    "action": "minus",
+    "result": "ERR"
+  }
+]

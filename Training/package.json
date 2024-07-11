@@ -1,0 +1,20 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "test training for cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sampleRun": "npx cypress run --browser \"chrome\" --spec \"cypress/e2e/\"",
+    "reporterRun": "npx cypress run --spec \"cypress/e2e/CalculatorExercise\"",
+    "cloudRun": "npx cypress run --record --key d8191666-32e4-4d74-8af8-8b0782e27c49 --spec \"cypress/e2e/CalculatorExercise/SampleTraining.cy.js\""
+  },
+  "author": "Jenin Joseph",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.12.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+    }
+}
