@@ -1,10 +1,10 @@
 [
   {
     "testScenario": "Add two Integers",
-    "firstNumber": "5",
+    "firstNumber": "14",
     "secondNumber": "15",
     "action": "plus",
-    "result": "20"
+    "result": "29"
   },
   {
     "testScenario": "Add two Float Numbers",
